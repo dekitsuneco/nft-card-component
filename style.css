@@ -29,6 +29,10 @@ body {
 /* Card */
 .card {
   background: hsl(216, 50%, 16%);
+  width: 40vw;
+  height: auto;
+  margin-top: 5em;
+  border-radius: 0.7em;
 
   display: flex;
   flex-direction: column;
@@ -40,15 +44,17 @@ body {
   font-weight: 300;
   color: hsl(215, 51%, 70%);
 
-  padding: 1%;
+  padding: 1.7%;
 }
 
   /* Image: */
   .card-img {
+    width: 100%;
+
     display: flex;
     justify-content: center;
   }
-    img {
+    .card-img img {
     display: block;
     width: 20em;
     }
@@ -88,11 +94,25 @@ body {
     /* Footer section */
     .card-footer {
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-start;
+      align-items: center;
     }
       .card-footer-avatar {
+        display: flex;
+        justify-content: center;
 
+        width: 2.5em;
+        height: 2.5em;
+
+        border: 0.1px solid hsl(0, 0%, 100%);
+        border-radius: 100%;
+
+        margin-right: 0.9em;
       }
+        .card-footer-avatar img {
+          display: block;
+          object-fit: contain;
+        }
       .card-footer-author {
 
       }
