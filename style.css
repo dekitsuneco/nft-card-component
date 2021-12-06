@@ -44,7 +44,7 @@ body {
   font-weight: 300;
   color: hsl(215, 51%, 70%);
 
-  padding: 2em;
+  padding: 2.2em;
 }
 
   /** Image: **/
@@ -121,7 +121,6 @@ body {
           color:hsl(0, 0%, 100%);
         }
 
-
 /** Page footer **/
 .attribution {
   font-size: 11px;
@@ -130,4 +129,17 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+/** Media quieris: **/
+@media (max-width: 720px) {
+  .card {
+    margin: 2rem 0.9rem;
+    padding: 1em;
+  }
+
+  .card-img img {
+    width: 100%;
+  }
 }
