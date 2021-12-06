@@ -1,0 +1,87 @@
+body {
+  width: 1440px;
+  background: hsl(217, 54%, 11%);
+
+  
+  
+  
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card section */
+/* Main theme */
+.card {
+  background: hsl(216, 50%, 16%);
+
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+
+  padding: 1%;
+}
+
+/* Main image */
+.card-img {
+
+}
+
+/* Content section */
+h2 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-body {
+
+}
+
+.card-description {
+  color: hsl(215, 51%, 70%);
+}
+
+/* Info section */
+.card-info {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 0.3px solid hsl(215, 32%, 27%);
+}
+
+.eth {
+
+}
+
+.time {
+
+}
+
+/* Creator info section */
+.card-creator {
+  display: flex;
+}
+
+.creator-img {
+
+}
+
+.card-info {
+
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
