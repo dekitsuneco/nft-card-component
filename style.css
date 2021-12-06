@@ -96,13 +96,15 @@ body {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+
+      padding-top: 0.7em;
     }
       .card-footer-avatar {
         display: flex;
         justify-content: center;
 
-        width: 2.5em;
-        height: 2.5em;
+        width: 2em;
+        height: 2em;
 
         border: 0.1px solid hsl(0, 0%, 100%);
         border-radius: 100%;
@@ -113,9 +115,10 @@ body {
           display: block;
           object-fit: contain;
         }
-      .card-footer-author {
-
-      }
+        /*.card-footer-author { } */
+        .card-footer-author-name {
+          color:hsl(0, 0%, 100%);
+        }
 
 
 /* Page footer */
