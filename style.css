@@ -28,6 +28,17 @@ body {
       - Author
 **/
 /** Card **/
+.card-link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+  .card-link:active {
+    color: hsl(178, 100%, 50%);
+  }
+  .card-link:visited {
+    text-decoration: none;
+  }
+
 .card {
   background: hsl(216, 50%, 16%);
 
@@ -56,9 +67,10 @@ body {
   }
     .card-img img {
       display: block;
-      
+
       border-radius: 0.7em;
     }
+
 
   /** Body section **/    
   .card-body {
@@ -69,9 +81,9 @@ body {
 
     /** Content section **/
       /*.card-content { }*/
-      .card-content-header {
+      .card-content-header, .card-content-header .card-link {
         font-weight: 600;
-        color: hsl(0, 0%, 100%);
+        
       }
       .card-content-description {
         color: hsl(215, 51%, 70%);
@@ -88,7 +100,7 @@ body {
       border-bottom: 0.1em solid hsl(215, 32%, 27%);
     }
       .card-stats-eth {
-        color: hsl(178, 100%, 50%)
+        color: hsl(178, 100%, 50%);
       }
       /*.card-stats-time { }*/
 
@@ -117,9 +129,7 @@ body {
           object-fit: contain;
         }
         /*.card-footer-author { } */
-        .card-footer-author-name {
-          color:hsl(0, 0%, 100%);
-        }
+        /*.card-footer-author-name { } */
 
 /** Page footer **/
 .attribution {
