@@ -31,8 +31,7 @@ body {
 .card {
   background: hsl(216, 50%, 16%);
 
-  margin: 3rem auto 2rem auto;
-
+  margin: 3rem auto;
   border-radius: 0.7em;
 
   display: flex;
@@ -40,28 +39,25 @@ body {
   justify-content: center;
   align-content: center;
 
-
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: hsl(215, 51%, 70%);
 
-  padding: 1.7%;
+  padding: 2em;
 }
 
   /** Image: **/
   .card-img {
     width: 100%;
-    height: 450px;
 
     display: flex;
     justify-content: center;
   }
     .card-img img {
-    display: block;
-    width: 450px;
-    
-    border-radius: 0.7em;
+      display: block;
+      
+      border-radius: 0.7em;
     }
 
   /** Body section **/    
