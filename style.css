@@ -11,11 +11,24 @@ body {
   justify-content: center;
 }
 
-/* Card section */
-/* Main theme */
+
+/* 
+  Card is:
+  - Image,
+  - Body:
+    - Content:
+      - Header,
+      - Description
+    - Stats:
+      - Eth,
+      - Time
+    - Footer:
+      - Avatar,
+      - Author
+*/
+/* Card */
 .card {
   background: hsl(216, 50%, 16%);
-
 
   display: flex;
   flex-direction: column;
@@ -30,63 +43,62 @@ body {
   padding: 1%;
 }
 
-/* Main image */
-.card-img {
-  display: flex;
-  justify-content: center;
-}
+  /* Image: */
+  .card-img {
+    display: flex;
+    justify-content: center;
+  }
+    img {
+    display: block;
+    width: 20em;
+    }
 
-img {
-  display: block;
-  width: 20em;
-}
+  /* Body section */    
+  .card-body {
+    
+    }
 
-/* Content section */
-h2 {
-  font-weight: 600;
-  color: hsl(0, 0%, 100%);
-}
+    /* Content section */
+    .card-content {
 
-.card-body {
+    }
+      .card-content-header {
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+      }
+      .card-content-description {
+      color: hsl(215, 51%, 70%);
+      }
 
-}
+    /* Stats section */
+    .card-stats {
+      display: flex;
+      justify-content: space-between;
+    
+      padding-bottom: 0.7em;
+      border-bottom: 0.3px solid hsl(215, 32%, 27%);
+    }
+      .card-stats-eth {
+        color: hsl(178, 100%, 50%)
+      }
+      .card-stats-time {
+      
+      }
 
-.card-description {
-  color: hsl(215, 51%, 70%);
-}
+    /* Footer section */
+    .card-footer {
+      display: flex;
+      justify-content: space-around;
+    }
+      .card-footer-avatar {
 
-/* Info section */
-.card-info {
-  display: flex;
-  justify-content: space-between;
+      }
+      .card-footer-author {
 
-  padding-bottom: 0.7em;
-  border-bottom: 0.3px solid hsl(215, 32%, 27%);
-}
+      }
 
-.eth {
-  color: hsl(178, 100%, 50%)
-}
 
-.time {
-
-}
-
-/* Creator info section */
-.card-creator {
-  display: flex;
-  justify-content: space-around;
-}
-
-.creator-img {
-
-}
-
-.card-info {
-
-}
-
-/* Footer */
+/* Page footer */
 .attribution {
   font-size: 11px;
   text-align: center;
