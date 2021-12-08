@@ -64,11 +64,24 @@ body {
 
     display: flex;
     justify-content: center;
+    position: relative;
+
+    background: url('./images/icon-view.svg') center center no-repeat;
   }
     .card-img img {
       display: block;
 
       border-radius: 0.7em;
+    }
+    .card-img:hover {
+      opacity: 0.3;
+    }
+    .card-img::after {
+      position: absolute;
+      top: 45%;
+
+
+      content: url('./images/icon-view.svg');
     }
 
 
