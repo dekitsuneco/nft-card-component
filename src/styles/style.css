@@ -89,7 +89,7 @@ body {
       top: 45%;
       left: 45%;
 
-      content: url('./images/icon-view.svg');
+      content: url('./assets/images/icon-view.svg');
     }
 
 
@@ -156,6 +156,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
