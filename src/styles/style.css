@@ -40,6 +40,9 @@ body {
   .card-link:visited {
     text-decoration: none;
   }
+  .card-link:hover{
+    color: hsl(178, 100%, 50%);
+  }
 
 .card {
   background: hsl(216, 50%, 16%);
